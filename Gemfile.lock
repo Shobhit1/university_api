@@ -28,7 +28,10 @@ GEM
       slop (~> 3.4)
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
+    puma (3.9.1)
     rack (2.0.3)
+    rack-parser (0.7.0)
+      rack
     rack-protection (2.0.0)
       rack
     sinatra (2.0.0)
@@ -56,6 +59,8 @@ DEPENDENCIES
   mongoid (~> 6.2.0)
   pry
   pry-nav
+  puma
+  rack-parser
   sinatra
   sinatra-contrib
 
