@@ -5,7 +5,7 @@ UniversityAPI = Rack::Builder.new do
     run Handler
   end
   map '/universities' do
-    run University_Handler
+    run UniversityHandler
   end
 end
 
